@@ -6,7 +6,7 @@
 /*   By: nvillase <nvillase@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/17 11:30:44 by nvillase          #+#    #+#             */
-/*   Updated: 2023/03/17 11:34:54 by nvillase         ###   ########.fr       */
+/*   Updated: 2023/03/20 11:52:35 by nvillase         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 char	*get_next_line(int fd)
 {
-	
+	static char	*buffer
 }

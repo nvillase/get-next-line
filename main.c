@@ -1,29 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nvillase <nvillase@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/17 11:30:50 by nvillase          #+#    #+#             */
-/*   Updated: 2023/03/20 11:52:38 by nvillase         ###   ########.fr       */
+/*   Created: 2023/03/17 16:17:40 by nvillase          #+#    #+#             */
+/*   Updated: 2023/03/20 11:52:42 by nvillase         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#include "get_next_line.h"
 
-# include <stdio.h>
-# include <strings.h>
-# include <stdlib.h>
-# include <string.h>
-# include <unistd.h>
-# include <stdarg.h>
-# include <fctnl.h>
-
-#ifndef BUFFER_SIZE
-#define BUFFER_SIZE 42
-
-char	*get_next_line(int fd);
-
-#endif
+int	main()
+{
+	
+}
